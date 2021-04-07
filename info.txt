@@ -1,0 +1,16 @@
+<!-- Contact me -->     
+    <div>
+        <marquee>
+            <h1>Contact Me</h1>
+        </marquee>
+        <h3>
+            <em>
+            <dt>Mumbai,Maharashtra</dt>
+            <dt>India.</dt>
+            </em>
+            <a href="https://www.instagram.com/mr_incognito1109/" target="_blank"><li>Follow Me On Instagram</li></a>
+            <a href="https://twitter.com/Mrincognito1109" target="_blank"><li>Tweet a Thanks</li></a>
+            <a href="mailto: mrincognito1109@gmail.com?subject=Portfolio" target="_blank"><li>Contact Me</li></a>
+        </h3>
+    </div> 
+    <hr>
