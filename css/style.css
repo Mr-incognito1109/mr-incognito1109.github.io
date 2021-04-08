@@ -1,0 +1,19 @@
+body {
+    background-color: #ddf0f0;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: rgb(182, 180, 180);
+    width: 5%;
+}
+h1 {
+    color: #5eb7f1;
+}
+h3 {
+    color: #5eb7f1;
+}
+.home,.about,.work,.extra {
+    text-align: center;
+}
