@@ -1,19 +1,112 @@
 body {
-    background-color: #ddf0f0;
+    margin: 0px;
+    text-align: center;
+    font-family: "Merriweather",serif;
 }
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-width: 5px;
-    border-color: rgb(182, 180, 180);
-    width: 5%;
+a {
+    color: #126e82;
+    font-family: "Merriweather",serif;
 }
 h1 {
-    color: #5eb7f1;
+    color: #126e82;
+    width: 40%;
+    margin: 0 auto 0 auto;
+    font-family: "Sacramento",cursive;
+    font-size: 5em;
+    line-height: 1.5;
+}
+h2 {
+    color: #126e82;
+    width: 30%;
+    margin: 20px auto 30px auto;
+    font-size: 150%;
+    font-weight: normal;
 }
 h3 {
-    color: #5eb7f1;
+    color: #126e82;
 }
-.home,.about,.work,.extra {
-    text-align: center;
+p {
+    line-height: 2;
 }
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*************************Class***************************/
+.Contact {
+    background-color: #66BFBF;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.home {
+    background-color: #ceeeee;
+    padding-top: 120px;
+    position: relative;
+}
+.hello {
+    font-size: 200%;
+}
+.t-photo {
+    position: absolute;
+    top: 35px;
+    left: 85px;
+    width: 100px;
+}
+.second-photo {
+    margin: 60px auto 0 auto;
+    width: 150px;
+}
+.idea {
+    width: 80px;
+}
+.question {
+    width: 80px;
+}
+
+
+/******************************ID's*******************************/
+#mountain {
+    margin-top: 30px;
+}
+#t-cloud {
+    width: 200px;
+    position: absolute;
+    left: 15%;
+    top: 150px;
+}
+#b-cloud {
+    width: 150px;
+    position: absolute;
+    right: 15%;
+    top: 80px;
+}
+/****************************New Code****************************/
+.btn {
+    background: #126e82;
+    background-image: -webkit-linear-gradient(top, #126e82, #47eded);
+    background-image: -moz-linear-gradient(top, #126e82, #47eded);
+    background-image: -ms-linear-gradient(top, #126e82, #47eded);
+    background-image: -o-linear-gradient(top, #126e82, #47eded);
+    background-image: linear-gradient(to bottom, #126e82, #47eded);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #6ff2e3;
+    background-image: -webkit-linear-gradient(top, #6ff2e3, #55b8fa);
+    background-image: -moz-linear-gradient(top, #6ff2e3, #55b8fa);
+    background-image: -ms-linear-gradient(top, #6ff2e3, #55b8fa);
+    background-image: -o-linear-gradient(top, #6ff2e3, #55b8fa);
+    background-image: linear-gradient(to bottom, #6ff2e3, #55b8fa);
+    text-decoration: none;
+  }
+  .btn {
+      
+  }
