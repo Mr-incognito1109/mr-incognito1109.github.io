@@ -31,6 +31,10 @@ p {
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
+    border: dotted 7px;
+    color: #EAF6F6;
+    border-bottom: none;
+    width: 10%;
 }
 /*************************Class***************************/
 .Contact {
