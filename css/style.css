@@ -28,6 +28,7 @@ h3 {
 p {
     line-height: 2;
 }
+
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -84,6 +85,10 @@ hr {
     right: 15%;
     top: 80px;
 }
+#o-p {
+    margin: auto;
+    width: 500px;
+}
 /****************************New Code****************************/
 .btn {
     background: #126e82;
@@ -113,4 +118,45 @@ hr {
   }
   .btn {
       
+  }
+  /*************************Mobile View**************************/
+  @media screen and (max-width: 730px) {
+    #mountain {
+        margin-top: 20px;
+        width: 100%;
+    }
+    #o-p {
+        width: 360px;
+        margin: auto;
+        margin-block: 0;
+    }
+    #t-cloud {
+        width: 90px;
+        position: absolute;
+        left: 5%;
+        top: 300px;
+    }
+    #b-cloud {
+        width: 70px;
+        position: absolute;
+        right: 15%;
+        top: 100px;
+    }
+    .t-photo {
+        position: absolute;
+        top: 35px;
+        left: 10px;
+        width: 70px;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 120%;
+    }
+    .home {
+        padding-bottom: 10px;
+    }
+
+
   }
