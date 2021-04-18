@@ -116,11 +116,8 @@ hr {
     background-image: linear-gradient(to bottom, #6ff2e3, #55b8fa);
     text-decoration: none;
   }
-  .btn {
-      
-  }
   /*************************Mobile View**************************/
-  @media screen and (max-width: 730px) {
+  @media screen and (max-width: 600px) {
     #mountain {
         margin-top: 20px;
         width: 100%;
@@ -155,7 +152,10 @@ hr {
         font-size: 120%;
     }
     .home {
-        padding-bottom: 10px;
+        padding-bottom: 50px;
+    }
+    .Contact {
+        display: block;
     }
 
 
