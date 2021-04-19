@@ -89,7 +89,7 @@ hr {
     margin: auto;
     width: 500px;
 }
-/****************************New Code****************************/
+/****************************Button****************************/
 .btn {
     background: #126e82;
     background-image: -webkit-linear-gradient(top, #126e82, #47eded);
@@ -159,4 +159,25 @@ hr {
     }
 
 
+  }
+  /* ************************** Tablet View ************************* */
+  @media screen and (max-width: 1366px) {
+        #mountain {
+            width: 100%;
+        }
+        #t-cloud {
+            position: absolute;
+            left: 110px;
+            top: 210px;
+        }
+        #b-cloud {
+            position: absolute;
+            right: 110px;
+            top: 100px;
+        }
+        .t-photo {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+        }
   }
