@@ -166,8 +166,9 @@ hr {
             width: 100%;
         }
         #t-cloud {
+            width: 170px;
             position: absolute;
-            left: 110px;
+            left: 50px;
             top: 210px;
         }
         #b-cloud {
@@ -180,4 +181,10 @@ hr {
             top: 40px;
             left: 40px;
         }
+  }
+
+  @media screen and (min-width: 1024px) {
+      #mountain {
+          width: 100%;
+      }
   }
